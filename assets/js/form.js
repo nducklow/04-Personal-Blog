@@ -10,15 +10,15 @@ const blogPosts = []
 submit.addEventListener('click', function(event){
     event.preventDefault()
 
-    const username = usernameInput.value
-    const title = titleInput.value
-    const content = contentInput.value
+    const username = usernameInput.value.trim()
+    const title = titleInput.value.trim()
+    const content = contentInput.value.trim()
 
     localStorage.setItem('username', username)
     localStorage.setItem('title', title)
     localStorage.setItem('content', content)
     
-    window.location.href = "./blog.html"
+    window.location.replace("./blog.html")
     
     
     

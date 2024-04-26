@@ -11,7 +11,7 @@ function init() {
     // Get stored todos from localStorage
    username.textContent = (localStorage.getItem('username'))
    title.textContent = (localStorage.getItem('title')) 
-   content.textContent = (localStorage.getItem('content'))
+   content.textContent = (localStorage.getItem('content')) 
 }
 
 init()
