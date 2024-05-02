@@ -15,9 +15,11 @@ const postInfo = {
     content: contentInput.value.trim(),
 }
 
-localStorage.setItem('posts', JSON.stringify(postInfo))
+localStorage.setItem('currentPost', JSON.stringify(postInfo))
 
 window.location.replace("./blog.html")
+
+
 
 
  })

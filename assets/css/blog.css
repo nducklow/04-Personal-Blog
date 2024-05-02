@@ -1,0 +1,11 @@
+section {
+    width: 70%;
+    /* Sets top and bottom margin to 20px. Auto will center element */
+    margin: 20px auto;
+    border-bottom: 5px solid darkblue;
+    background-color: #ffffd4;
+  }
+
+  h2 {
+    text-align: center;
+  }
