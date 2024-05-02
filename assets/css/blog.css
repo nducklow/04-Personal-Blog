@@ -1,9 +1,16 @@
+body {
+background-color: rgb(14, 77, 102);
+
+}
+
+
+
 .container {
     /* Sets top and bottom margin to 20px. Auto will center element */
     margin: 20px;
     word-wrap: break-word;
     border-bottom: 5px solid darkblue;
-    background-color: #ffffd4;
+    background-color: #e6c78e;
 }
 
 .title {
@@ -21,15 +28,17 @@
     margin-left: 20px;
     margin-right: 20px;
     word-wrap: break-word;
-    color: blue
 }
 
 .username {
-    font-family: "Gill Sans", sans-serif;
-    padding-top: 30px
+    font-family: sans-serif;
+    padding-top: 30px;
+    margin-left: 10px;
+    font-weight: 650;
 }
 
 #footer {
+    position: fixed;
     margin: auto;
     text-align: center;
     font-size: 20px;
@@ -37,7 +46,7 @@
     bottom: 0px;
     height: 40px;
     width: 100%;
-    background: #65c922;
+    background: #10e2e2;
 
 
 }
