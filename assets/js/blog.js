@@ -13,10 +13,10 @@ function init() {
 
     const currentPost = JSON.parse(localStorage.getItem('currentPost'))
     const savedPosts = JSON.parse(localStorage.getItem('savedPosts'))
-    if (savedPosts !== null) {
+    if (savedPosts) {
         posts = savedPosts;
     }
-    if (currentPost !== null) {
+    if (currentPost) {
         posts.push(currentPost)
     }
     localStorage.setItem('savedPosts', JSON.stringify(posts))

@@ -14,7 +14,7 @@ submit.addEventListener('click', function (event) {
         title: titleInput.value.trim(),
         content: contentInput.value.trim(),
     }
-    if (postInfo.username || postInfo.title || postInfo.content !== '') {
+    if (postInfo.username && postInfo.title && postInfo.content) {
         localStorage.setItem('currentPost', JSON.stringify(postInfo))
 
     window.location.replace("./blog.html")
